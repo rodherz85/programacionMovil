@@ -15,6 +15,7 @@ class HomeStarbucks extends StatelessWidget {
       appBar: const StarAppBar(),
       endDrawer: const DrawerStarbucks(),
       body: SingleChildScrollView(
+        //Lo utilicé para scrollear la pantalla y poder diseñar un poco más
         child: Column(
           children: [
             const Image(image: AssetImage('assets/home_1.jpeg')),
