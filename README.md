@@ -1,8 +1,6 @@
 <<<<<<< HEAD
-# evaluacion_2
+# Evaluación 2
 
-A new Flutter project.
-=======
-# programacionMovil
-Proyecto corresponde a la segunda evaluación de la asignatura Programación Móvil
->>>>>>> abc14449c4515bb6bf639e91eb87f46cac9defc7
+##Proyecto movil utilizando Flutter
+
+Este proyecto corresponde a la replica de la versión móvil de la pagina https://www.starbucks.cl/
