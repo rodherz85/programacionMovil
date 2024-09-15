@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 /*Este proyecto corresponde a la réplica de la página https://www.starbucks.cl/
 En el menu Drawer se reemplaza 'GIFT' y en su lugar se incorpora 'Comunicados oficiales' para practicar la aplicación del widget Card
+Las imágenes de la web a replicar se agregaron a la carpeta 'FotosPaginaWebMovil'
 */
 class HomeStarbucks extends StatelessWidget {
   const HomeStarbucks({super.key});
