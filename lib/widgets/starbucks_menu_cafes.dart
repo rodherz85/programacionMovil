@@ -1,6 +1,11 @@
 import 'package:evaluacion_2/widgets/starbucks_stack_menu.dart';
 import 'package:flutter/material.dart';
 
+/*
+Este widget utiliza los elemntos creados por el Widget MenuProductos y los acomoda en un Wrap
+Se reutiliza en la screen Menu
+*/
+
 class MenuCafes extends StatelessWidget {
   const MenuCafes({
     super.key,

@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+/*Este widget consta de un Stack que contiene un container en forma redonda y se agrega la imagen del producto
+Solicita un string correspondiente a la ruta de la imagen y otro string correspondiente al texto de la descripción del producto
+Se utiliza en un un widget llamado MenuCafe
+*/
 class MenuProductos extends StatelessWidget {
   final String imagenRuta;
   final String textoMenu;
@@ -24,7 +28,6 @@ class MenuProductos extends StatelessWidget {
               ),
               Image(
                   image: AssetImage(imagenRuta),
-                  fit: BoxFit.cover, // Ajusta el tamaño de la imagen
                   alignment: Alignment.center), // Alinea la imagen al centro),
             ],
           ),

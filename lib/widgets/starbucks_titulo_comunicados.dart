@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-//Container título
+/* Este Widget crea un Container que contiene un texto y se utilza como título.
+Se reutiliza en las screen Café y Comunicados Oficiales
+*/
 
 class TituloApp extends StatelessWidget {
   final Size sizeScreen;

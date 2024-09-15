@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+/*Este widget crea un Chip personalizado con border redondeados y de color acorde a la paleta de colores de la página.
+Solicita un String que corresponde al texto
+Se utiliza en la screen Rewards
+*/
+
 class ChipRewards extends StatelessWidget {
   final String textoChip;
   const ChipRewards({super.key, required this.textoChip});

@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+/*
+Este Widget crea  un párrafo con con un texto en tamaño 15 y wight w300
+Toma como parámetro el String correspondiente al texto del párrafo
+Se utiliza en la screen Café
+*/
+
 class ParrafoCafe extends StatelessWidget {
   final String textoParrafo;
   const ParrafoCafe({

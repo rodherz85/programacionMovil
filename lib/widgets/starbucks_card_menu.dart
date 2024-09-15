@@ -1,6 +1,10 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 
+/*Este widget crea una estructura formada por una Card, que contiene una imagen, un título  y una fecha
+Toma 3 Strings, 1 correspondiente a la ruta de la imagen, otro al título y el último a la fecha
+*/
+
 class CardComunicados extends StatelessWidget {
   final String imagenRuta;
   final String texto1;

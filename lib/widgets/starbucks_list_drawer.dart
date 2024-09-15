@@ -1,6 +1,10 @@
 import 'package:evaluacion_2/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
+/* Este widget muestra la listas de las screens creadas
+y se deberían redirigir al hacer un clic
+*/
+
 class DetailScreen extends StatelessWidget {
   const DetailScreen({super.key});
   @override
