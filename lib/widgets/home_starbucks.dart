@@ -1,7 +1,9 @@
 import 'package:evaluacion_2/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
-// ignore: camel_case_types
+/*Este proyecto corresponde a la réplica de la página https://www.starbucks.cl/
+En el menu Drawer se reemplaza 'GIFT' y en su lugar se incorpora 'Comunicados oficiales' para practicar la aplicación del widget Card
+*/
 class HomeStarbucks extends StatelessWidget {
   const HomeStarbucks({super.key});
   @override
