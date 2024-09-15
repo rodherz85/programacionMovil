@@ -5,6 +5,7 @@ class MenuScreen extends StatelessWidget {
   const MenuScreen({super.key});
   @override
   Widget build(BuildContext context) {
+    final sizeScreen = MediaQuery.of(context).size;
     return Scaffold(
       appBar: const StarAppBar(),
       endDrawer: const DrawerStarbucks(),
@@ -61,6 +62,10 @@ class MenuScreen extends StatelessWidget {
                 ),
               ),
               const MenuCafes(),
+              const SizedBox(
+                height: 20,
+              ),
+              PiePagina(sizeScreen: sizeScreen)
             ],
           ),
         ),

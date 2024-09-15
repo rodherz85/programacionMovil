@@ -10,6 +10,8 @@ export 'package:evaluacion_2/widgets/starbucks_imagen_cafe.dart';
 export 'package:evaluacion_2/widgets/starbucks_parrafo_cafe.dart';
 export 'package:evaluacion_2/widgets/starbucks_menu_cafes.dart';
 export 'package:evaluacion_2/widgets/starbucks_chip_rewards.dart';
+export 'package:evaluacion_2/widgets/starbucks_pie_pagina.dart';
+export 'package:evaluacion_2/widgets/starbucks_stack_home.dart';
 
 /*Exporta todos los widgets creados
 */

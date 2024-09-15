@@ -10,7 +10,6 @@ class AppRoutes {
 
   static Map<String, Widget Function(BuildContext)> routes = {
     'home': (BuildContext context) => const HomeStarbucks(),
-    'error': (BuildContext context) => const ErrorScreen(),
     'comunicados': (BuildContext context) => const ComunicadosScreen(),
     'menu': (BuildContext context) => const MenuScreen(),
     'cafe': (BuildContext context) => const NuestroCafe(),

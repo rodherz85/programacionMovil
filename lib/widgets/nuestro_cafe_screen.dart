@@ -58,7 +58,11 @@ class NuestroCafe extends StatelessWidget {
             const ParrafoCafe(
               textoParrafo:
                   'Es por eso que nuestros magníficos baristas se enfocan en crear diariamente rituales escogiendo diferentes métodos de preparación para que sean nuestros clientes quienes se sorprenden. Así, de la mano de las explicaciones de nuestros expertos, no sólo cultivarán la curiosidad sino que podrán seleccionar el mejor método para su experiencia Starbucks. ',
-            )
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            PiePagina(sizeScreen: sizeScreen)
           ],
         ),
       ),

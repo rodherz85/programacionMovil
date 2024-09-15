@@ -51,42 +51,40 @@ class HomeStarbucks extends StatelessWidget {
             const SizedBox(height: 20),
             Container(
               color: const Color.fromRGBO(203, 168, 88, 1),
-              height: sizeScreen.height * 0.60,
               width: double.infinity,
-              child: Stack(
-                children: [
-                  Column(
-                    children: [
-                      const Image(image: AssetImage('assets/rewards.png')),
-                      Container(
-                        padding: const EdgeInsets.all(10),
-                        child: const Column(
-                          children: [
-                            Text(
-                              '¡Hola café gratis!',
-                              style: TextStyle(
-                                  color: Color.fromRGBO(30, 57, 50, 1),
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.bold),
-                              textAlign: TextAlign.center,
-                            ),
-                            SizedBox(height: 15),
-                            Text(
-                              'Registrate en Starbucks Rewards, suma Stars y obtén beneficios',
-                              style: TextStyle(
-                                  color: Color.fromRGBO(30, 57, 50, 1),
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w500),
-                              textAlign: TextAlign.center,
-                            )
-                          ],
-                        ),
-                      ),
-                    ],
-                  )
-                ],
+              child: const HomeStack(
+                imagenRuta: 'assets/rewards.png',
+                tituloStack: '¡Hola café gratis!',
+                textoStack:
+                    'Registrate en Starbucks Rewards, suma Stars y obtén beneficios.',
+                textoColor: Color.fromRGBO(30, 57, 50, 1),
               ),
             ),
+            const SizedBox(height: 20),
+            Container(
+              color: const Color.fromRGBO(212, 233, 226, 1),
+              width: double.infinity,
+              child: const HomeStack(
+                imagenRuta: 'assets/delivery.png',
+                tituloStack:
+                    '¡La Experiencia Starbucks llega a donde tu quieras!',
+                textoStack: 'Revisa nuestras opciones de delivery',
+                textoColor: Color.fromRGBO(0, 117, 74, 1),
+              ),
+            ),
+            const SizedBox(height: 20),
+            Container(
+              color: const Color.fromRGBO(212, 233, 226, 1),
+              width: double.infinity,
+              child: const HomeStack(
+                imagenRuta: 'assets/reclutamiento.png',
+                tituloStack: 'Únete a algo más grande',
+                textoStack: 'Revisa las oportunidades que tenemos para tí',
+                textoColor: Color.fromRGBO(0, 117, 74, 1),
+              ),
+            ),
+            const SizedBox(height: 20),
+            PiePagina(sizeScreen: sizeScreen),
           ],
         ),
       ),

@@ -43,6 +43,10 @@ class ComunicadosScreen extends StatelessWidget {
                   'Conmemoración mes de la mujer: Starbucks Cono Sur presenta "Sirenas", programa interno para mujeres',
               texto2: 'Marzo 08, 2023',
             ),
+            const SizedBox(
+              height: 20,
+            ),
+            PiePagina(sizeScreen: sizeScreen)
           ],
         ),
       ),
